@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>datepicker</title>
+	
+	<link rel="stylesheet" type="text/css" href="./datepicker.css">
+</head>
+<body>
+<input type="text" value="2016-05-24 18:15">
+
+<script src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+<script src="datepicker.js"></script>
+<script src="timepicker.js"></script>
+<script>
+$('input').datepicker({
+  timepicker:true,
+  autoclose: false, //这里最好设置为false
+});
+</script>
+</body>
+</html>
