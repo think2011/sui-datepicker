@@ -92,8 +92,8 @@
                     }
                 }
 
-                temp.startDate = new Date(temp.startDate)
-                temp.endDate   = new Date(temp.endDate)
+                temp.startDate = temp.startDate && new Date(temp.startDate)
+                temp.endDate   = temp.endDate && new Date(temp.endDate)
 
                 return temp
             }
